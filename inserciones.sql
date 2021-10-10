@@ -1,0 +1,18 @@
+insert into repuesto values (1, "Llantas spice",1200,"Llantas spice 17 pulgadas",'2021-10-25');
+insert into repuesto values (2, "Correa de repartición",1200,"Correa de repartición para spark GT",'2021-11-25');
+insert into repuesto values (3, "Bujía force",3500,"Bujía force 4 electrodos",'2021-08-20');
+insert into cliente values (1,"juan","perez","colombiana","jperez@micorreo.com");
+insert into cliente values (2,"pedro","martinez","colombiana","pmartinez@micorreo.com");
+insert into cliente values (3,"maria","lara","colombiana","mlara@micorreo.com");
+insert into factura values (1,"UNIREPUESTOS",'2021-08-25',"bogota",1);
+insert into factura values (2,"UNIREPUESTOS",'2021-08-26',"bogota",2);
+insert into factura values (3,"UNIREPUESTOS",'2021-08-27',"bogota",3);
+insert into repuestofactura values (1,5,1,1);
+insert into repuestofactura values (2,10,1,2);
+insert into repuestofactura values (3,15,1,3);
+insert into repuestofactura values (4,22,2,1);
+insert into repuestofactura values (5,25,2,2);
+insert into repuestofactura values (6,31,2,3);
+insert into repuestofactura values (7,35,3,1);
+insert into repuestofactura values (8,44,3,2);
+insert into repuestofactura values (9,1,3,3);
